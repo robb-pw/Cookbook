@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xlmns="urn:nhibernate-mapping-2.2"
+                   assembley="Eg.Core"
+                   namespace="Eg.Core">
+  <subclass name="Book" extends="Product">
+    <property name="Author" />
+    <property name="ISBN" />
+  </subclass>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xlmns="urn:nhibernate-mapping-2.2"
+                   assembley="Eg.Core"
+                   namespace="Eg.Core">
+  <subclass name="Movie" extends="Product">
+    <property name="Director" />
+    <list name="Actors" cascade="all-delete-orphan">
+      <key column="MovieId" />
+      <index column="ActorIndex" />
+      <one-to-many class="ActorRole" />
+    </list>
+  </subclass>
+</hibernate-mapping>

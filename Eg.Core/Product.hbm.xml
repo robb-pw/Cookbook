@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xlmns="urn:nhibernate-mapping-2.2" 
+                   assembley="Eg.Core"
+                   namespace="Eg.Core">
+  <class name="Product">
+    <id name="Id">
+      <generator class="guid.comb" />
+    </id>
+    <discriminator column="ProductType" />
+    <natural-id mutable="true">
+      <property name="Name" not-null="true" />
+    </natural-id>
+    <property name="Name" not-null="true" />
+    <property name="Description" />
+    <property name="UnitPrice" not-null="true" type="Currency" />
+  </class>
+</hibernate-mapping>
