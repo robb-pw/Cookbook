@@ -1,0 +1,9 @@
+C:\projects\Personal\Cookbook\Eg.Core\bin\Debug\Eg.Core.dll
+C:\projects\Personal\Cookbook\Eg.Core\bin\Debug\Eg.Core.pdb
+C:\projects\Personal\Cookbook\Eg.Core\bin\Debug\Iesi.Collections.dll
+C:\projects\Personal\Cookbook\Eg.Core\bin\Debug\NHibernate.dll
+C:\projects\Personal\Cookbook\Eg.Core\bin\Debug\Iesi.Collections.xml
+C:\projects\Personal\Cookbook\Eg.Core\bin\Debug\NHibernate.xml
+C:\projects\Personal\Cookbook\Eg.Core\obj\Debug\Eg.Core.csprojResolveAssemblyReference.cache
+C:\projects\Personal\Cookbook\Eg.Core\obj\Debug\Eg.Core.dll
+C:\projects\Personal\Cookbook\Eg.Core\obj\Debug\Eg.Core.pdb
